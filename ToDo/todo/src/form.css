@@ -1,0 +1,54 @@
+.formCreate{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+   
+    padding: 25px;
+    border-radius: 30px;
+    gap: 8px;
+
+
+}
+.formCreate input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 18px;
+    border: none;
+    border-bottom: 1px solid purple;
+    outline: none;
+
+}
+
+.formCreate textarea{
+    width: 100%;
+    border-radius: 18px;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid purple;
+    outline: none;
+}
+.create{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.formCreate button{
+    align-self: flex-start;
+    border-radius: 18px;
+    padding: 5px;
+    width: 25%;
+    border: none;
+    background-color:rgb(162, 84, 162);
+    color: white;
+    
+}
+.formCreate h3{
+    align-self: flex-start;
+    font-size: 30px;
+    font-weight: 500;
+}
